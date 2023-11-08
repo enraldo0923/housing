@@ -7,9 +7,8 @@ import RootContext from './context';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Root />
     <RootContext>
-      <Root />
-
     </RootContext>
   </React.StrictMode>
 );
